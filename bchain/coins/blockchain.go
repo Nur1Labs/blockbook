@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/bchain/coins/mubdi/cxau"
-	"github.com/trezor/blockbook/common"
+	"github.com/Nur1Labs/blockbook/bchain"
+	"github.com/Nur1Labs/blockbook/bchain/coins/btc"
+	"github.com/Nur1Labs/blockbook/bchain/coins/mubdi/cxau"
+	"github.com/Nur1Labs/blockbook/common"
 )
 
 type blockChainFactory func(config json.RawMessage, pushHandler func(bchain.NotificationType)) (bchain.BlockChain, error)
