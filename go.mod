@@ -1,4 +1,5 @@
 module github.com/trezor/blockbook
+module github.com/Nur1Labs/blockbook
 
 go 1.19
 
