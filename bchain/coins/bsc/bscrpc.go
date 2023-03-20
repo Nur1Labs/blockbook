@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/eth"
+	"github.com/Nur1Labs/blockbook/bchain"
+	"github.com/Nur1Labs/blockbook/bchain/coins/eth"
 )
 
 const (
